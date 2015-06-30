@@ -1,0 +1,6 @@
+baseurl:
+url: http://www.browningspeech.com
+title: Browning Speech Therapy
+description: Changing The World... One Word At A Time!
+markdown: kramdown
+permalink: /:categories/:title/

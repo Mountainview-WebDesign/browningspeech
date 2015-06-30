@@ -1,1 +1,0 @@
-# Carry Hill Child Theme
