@@ -1,0 +1,16 @@
+body {
+	color: #A19D9D;
+	background-color: #35b2b2;
+	background: #35b2b2 url("/assets/img/background-pattern.png");
+	line-height: 1.5;
+	font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arvo', serif;
+}
+.container {
+	background-color: #FFF;
+}
+.main-content {
+	background: #f7f6f4 url("/assets/img/content-bg.png");
+}
