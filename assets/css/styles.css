@@ -8,7 +8,20 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Arvo', serif;
 }
-.ch-content-top-edge {
+
+.container {
+	max-width: 980px;
+}
+header,
+header a{
+	color: #FFF;
+}
+
+.main-content {
+	position: relative;
+	background: #f7f6f4 url("/assets/img/content-bg.png");
+}
+.content-top-edge {
 	margin-top: -62px;
 	margin-left: -15px;
 	margin-right: -15px;
@@ -16,10 +29,27 @@ h1, h2, h3, h4, h5, h6 {
 	height: 68px;
 	background: url("/assets/img/content-top-edge.png") repeat-x;
 }
-.container {
-	max-width: 980px;
-	background-color: #FFF;
+.content-bottom-edge {
+	position: absolute;
+	margin-bottom: -50px;
+	margin-left: -15px;
+	margin-right: -15px;
+	bottom: 0;
+	z-index: 100;
+	width: 100%;
+	height: 50px;
+	background: url("/assets/img/content-bottom-edge.png") repeat-x;
 }
-.main-content {
-	background: #f7f6f4 url("/assets/img/content-bg.png");
+
+.footer-top {
+	padding-top: 50px;
+	background: url("/assets/img/footer-top-bg.jpg");
+}
+.footer-bottom {
+	background-color: #aaa8a8;
+	color: #F7F6F4;
+}
+.footer-bottom div {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
