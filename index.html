@@ -2,38 +2,9 @@
 layout: default
 ---
 
-<header class="container">
-    <div>
-        <div>
-            <div>
-                <h1 class="site-title"><a href="{{site.baseurl}}" rel="home">{{site.title}}</a></h1>
-                <p>{{site.description}}</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="{{site.baseurl}}">Home</a>
-                        </li>
-                        <li>
-                            <a href="{{site.baseurl}}/contact/">Contact</a>
-                        </li>
-                        <li>
-                            <a href="{{site.baseurl}}/credentials/">Credentials</a>
-                        </li>
-                        <li>
-                            <a href="{[site.baseurl]}/services/">Services</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+{% include menu.html %}
 <div class="container main-content">
-    <div class="content-top-edge"></div>
+    <div class="content-top-edge hidden-xs"></div>
     <div class="row">
         <div class="col-md-8">
             <p>Browning Speech Therapy, LLC provides customized speech therapy services in the comfort of your home. Speech therapy services are “play-based” and individualized to meet the needs of the child and their family. Comprehensive evaluations, therapy,
