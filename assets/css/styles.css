@@ -68,3 +68,16 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+.navbar-default .navbar-toggle {
+  background-color: #C0C0C0;
+}
+
+@media (max-width: 767px) {
+	.navbar {
+		height: inherit;
+	}
+	.main-content {
+	  padding-top: 20px;
+	}
+}
