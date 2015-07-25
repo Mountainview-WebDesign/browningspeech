@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 	background: url("/assets/img/content-bottom-edge.png") repeat-x;
 }
 
+.sidebar div {
+	margin-bottom: 50px;
+}
+
 .footer-top {
 	padding-top: 50px;
 	background: url("/assets/img/footer-top-bg.jpg");
